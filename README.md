@@ -17,9 +17,28 @@ A PHP-based room booking application with queue management, automatic expiry, an
 - Web server (Apache/Nginx)
 - Composer (recommended for dependencies)
 
-## Installation
+
+
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/room-booking-system.git
    cd room-booking-system
+
+
+
+Landing page 
+
+<img width="1361" alt="image" src="https://github.com/user-attachments/assets/2d4c2715-208b-4258-8e01-c050960284d1" />
+
+Room Booking 
+
+<img width="628" alt="image" src="https://github.com/user-attachments/assets/d86f3ba1-ef71-4370-a9ec-ccbb6286ff98" />
+
+Booking List 
+
+<img width="1363" alt="image" src="https://github.com/user-attachments/assets/52158c8d-d75e-415a-a01f-807fec4debd5" />
+
+
+
+
