@@ -1,0 +1,63 @@
+.room-card {
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.room-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.room-card.booked {
+    opacity: 0.7;
+    background-color: #f8f9fa;
+}
+
+.room-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-card .btn {
+    margin-top: auto;
+}
+
+.table-responsive {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 0.5em 0.75em;
+}
+
+
+/* style.css */
+/* ... other styles ... */
+
+html, body {
+    height: 100%; /* Make html and body take full height */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto; /* Allow container to grow and take available space */
+}
+
+footer {
+    flex-shrink: 0; /* Prevent footer from shrinking */
+    background-color: #343a40; /* Or your footer's background color */
+    color: white; /* Or your footer's text color */
+    text-align: center;
+    padding: 15px 0; /* Adjust padding as needed */
+}
